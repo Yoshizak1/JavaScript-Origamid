@@ -1,6 +1,19 @@
 // Verifique se a sua idade é maior do que a de algum parente
 // Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
 
+var idade = 19;
+var idadeX = 25;
+
+if(idade > idadeX) {
+  console.log("É maior");
+} else if (idade === idadeX) {
+  console.log("é igual");
+} else {
+  console.log("É menor");
+}
+
+
+
 // Qual valor é retornado na seguinte expressão?
 var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
 
