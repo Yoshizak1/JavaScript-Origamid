@@ -38,3 +38,13 @@ function handleKeyboard(event) {
 }
 
 h1.addEventListener('keydown', handleEvent);
+
+const img = document.querySelectorAll('img');
+
+function handleImg(event) {
+  console.log(event.target.getAttribute('src'));
+}
+
+img.forEach((img) => {
+  img.addEventListener('click', handleImg);
+});

@@ -16,6 +16,10 @@ img {
   max-width: 100%;
 }
 
+html.textomaior {
+  font-size: 150%;
+}
+
 ul {
   list-style: none;
 }
