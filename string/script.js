@@ -53,3 +53,26 @@ listaPrecos.forEach((preco) => {
 listaPrecos[0].padStart(10, '.'); // ...... R$ 99
 listaPrecos[0].padEnd(10, '.'); // R$ 99......
 
+//repeat
+
+const frase2 = 'Ta';
+frase2.repeat(5) //TaTataTaTa
+
+//replace(regexp|substr, newstr|function)
+
+let listaItens = 'Camisas Bonés Calças Bermudas Vestidos Saias';
+listaItens = listaItens.replace(/[]+/g. ', ');
+
+listaItens = listaItens.replace('Camisas', 'shirt');
+
+//split
+
+const arrayLista = listaItens.split(', ');
+console.log(arrayLista);
+
+//trim 
+
+const valor = '  R$ 23.00  '
+valor.trim(); //'R$ 23.00'
+valor.trimStart(); //'R$ 23.00'
+valor.trimEnd(); //'R$ 23.00'
